@@ -1,4 +1,4 @@
-name: nature-reader
+name: nature-reader-upstream
 version: 2.1.0
 description: >
   Declarative manifest for the static/dynamic split. SKILL.md uses this to
@@ -6,10 +6,9 @@ description: >
   axis is the source format, which changes how text, figures, and tables are
   extracted before the bilingual reader is built.
 
-# Packaging change: the terminology ledger is bundled in references/.
 always_load:
   # Shared layer — common to the nature-* skills
-  - references/terminology-ledger.md
+  - ../nature-shared/core/terminology-ledger.md
   # Skill-local core
   - static/core/principles.md
   - static/core/workflow.md

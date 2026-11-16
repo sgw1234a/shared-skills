@@ -1,12 +1,12 @@
 ---
-name: nature-reader
+name: nature-reader-upstream
 description: "Create source-grounded Chinese-English paper readers with aligned text, figures, tables, and equations. Use for 全文翻译、中英文对照、论文精读 or source-linked questions about a paper; respect a requested excerpt or question without generating a full reader."
 metadata:
   version: "2.1.1"
   author: Community contribution, refactored into static/dynamic layers
 ---
 
-<!-- Packaging change: the terminology ledger is bundled in references/. -->
+For this Windows installation, see ../nature-shared/core/local-windows-runtime.md for the installed interpreters and commands.
 
 # Full-Paper Markdown Reader — Router
 
@@ -52,7 +52,7 @@ Apply the loaded fragments in this priority order:
 3. Reading workflow (`core/workflow.md`) — the six-step source-map-first process.
 4. Output contract (`core/output-contract.md`) — required files and the pre-response verification checklist.
 
-Build the Terminology Ledger as you translate (`references/terminology-ledger.md`); it becomes the `paper.md` recurring-term table and the `source_map.json` glossary.
+Build the Terminology Ledger as you translate (`../nature-shared/core/terminology-ledger.md`); it becomes the `paper.md` recurring-term table and the `source_map.json` glossary.
 
 If constraints prevent full processing, still create a draft reader and label missing pages, figures, or low-confidence crops in `translation_notes.md`. Do not switch to summary mode.
 

@@ -1,5 +1,3 @@
-<!-- Packaging change: the terminology ledger is bundled in references/. -->
-
 # Reading workflow
 
 Use steps 1-5 when creating a reader. For source-linked questions, go directly to step 6 and inspect the relevant source blocks; do not rebuild the artifact. For an explicit excerpt request, scope extraction and translation to that excerpt.
@@ -46,7 +44,7 @@ Translate every extractable substantive block with these rules:
 
 Render inline expressions with `$...$` and display equations with `$$...$$`. Do not put equations in ordinary code spans or code fences. For low-confidence OCR, custom macros that the target renderer cannot support, or image-only formulae, follow `references/equation-handling.md`: show the original crop and an explicitly labelled best-effort transcription rather than raw or guessed LaTeX.
 
-If a sentence contains multiple claims, keep the translation readable but do not split away the original evidence chain. Build the Terminology Ledger (`../../references/terminology-ledger.md`) as you translate so recurring terms stay consistent across the whole document.
+If a sentence contains multiple claims, keep the translation readable but do not split away the original evidence chain. Build the Terminology Ledger (`../../../nature-shared/core/terminology-ledger.md`) as you translate so recurring terms stay consistent across the whole document.
 
 ## 4. Extract and place figures and tables near the relevant discussion
 
